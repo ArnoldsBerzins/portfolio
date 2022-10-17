@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("image/matiss.jpeg");
+    background-size: cover;
+    margin: 0;
+    height: 900px;
+}
+
+.lnavbar {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.rnavbar {
+    display: flex;
+    align-items: right;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+h1 {
+    width: 20%;
+    text-align: center;
+}
+
+li {
+    position: relative;
+    list-style: none;
+    width:100%;
+    text-align: center;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li > a:active {
+    color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: blanchedalmond;
+}
