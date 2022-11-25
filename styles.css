@@ -1,9 +1,14 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("image/matiss.jpeg");
+    background-image: url("image/background.jpeg");
     background-size: cover;
+    background-position: center center;
     margin: 0;
     height: 900px;
+}
+
+.navigation-bar {
+    color: blanchedalmond;
 }
 
 .lnavbar {
@@ -11,6 +16,7 @@ body {
     align-items: center;
     width: 40%;
     justify-content: space-evenly;
+    font-size: 20px;
 }
 
 .rnavbar {
@@ -18,6 +24,7 @@ body {
     align-items: right;
     width: 40%;
     justify-content: space-evenly;
+    font-size: 20px;
 }
 
 h1 {
@@ -34,16 +41,45 @@ li {
 
 nav > ul > li > a {
     text-decoration: none;
-    color: black;
+    color: blanchedalmond;
 }
 
 nav > ul > li > a:active {
-    color: black;
+    color: rgb(151, 149, 146);
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: left;
-    background-color: blanchedalmond;
+    background-color: rgb(1, 1, 78);
+}
+
+.contact-form {
+    display: flex;
+    width: 40%;
+    padding-top: 3%;
+    margin: 0 auto;
+}
+
+.contact-form > form {
+    background-color: rgb(1, 1, 78);
+    color:blanchedalmond;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-form > form > div{
+    background-color: rgb(1, 1, 78);
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+input[type="text"], textarea {
+    background-color: #fff;
+    color: #000;
+    width: 90%;
 }
